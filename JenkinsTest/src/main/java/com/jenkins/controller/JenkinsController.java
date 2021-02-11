@@ -9,7 +9,7 @@ public class JenkinsController {
 	@RequestMapping("/")
 	public String sayHello() {
 		
-		return "Hi Jenkins";
+		return "Hi Jenkins..";
 
 	}
 
