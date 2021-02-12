@@ -10,7 +10,7 @@ public class JenkinsTestApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return super.configure(builder);
+		return builder.sources(JenkinsTestApplication.class);
 	}
 
 	public static void main(String[] args) {
